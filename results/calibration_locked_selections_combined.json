@@ -1,0 +1,38 @@
+{
+  "resunet": {
+    "mode": "hflip",
+    "threshold": 0.5,
+    "mean_kvasir_val_dice": 0.8826788043975831,
+    "seeds": [42, 43, 44]
+  },
+  "resunet_spc": {
+    "mode": "hflip",
+    "threshold": 0.5,
+    "mean_kvasir_val_dice": 0.8882338500022887,
+    "seeds": [42, 43, 44]
+  },
+  "resunet_dsp": {
+    "mode": "plain",
+    "threshold": 0.525,
+    "mean_kvasir_val_dice": 0.8812009167671203,
+    "seeds": [42]
+  },
+  "resunet_spc_region": {
+    "mode": "plain",
+    "threshold": 0.5,
+    "mean_kvasir_val_dice": 0.8834100198745728,
+    "seeds": [42]
+  },
+  "unetpp": {
+    "mode": "hflip",
+    "threshold": 0.6,
+    "mean_kvasir_val_dice": 0.8839450645446777,
+    "seeds": [42]
+  },
+  "deeplabv3p": {
+    "mode": "hflip",
+    "threshold": 0.5,
+    "mean_kvasir_val_dice": 0.8734350180625916,
+    "seeds": [42]
+  }
+}

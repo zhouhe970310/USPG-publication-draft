@@ -1,0 +1,64 @@
+{
+  "selection_dataset": "Kvasir-SEG fixed validation subset only",
+  "model_type": "resunet_spc",
+  "seed": 43,
+  "image_size": 256,
+  "checkpoint": "<EXPERIMENT_ROOT>/bspc_optimized_runs/resunet_spc/seed43/best_model.pth",
+  "checkpoint_sha256": "dc2db1f677e251a53a0d8b8c0e068d6fadd22eb6872ec42b32b4ff3fc21ebf54",
+  "best_epoch": 2,
+  "best_val_dice": 0.8850143870711915,
+  "clean_dice": 0.8850140571594238,
+  "mean_corrupt_dice": 0.8785994563783918,
+  "worst_corrupt_dice": 0.8723771572113037,
+  "selection_score": 0.8808445666517529,
+  "shifts": [
+    {
+      "shift": "clean",
+      "dice": 0.8850140571594238,
+      "iou": 0.8165398240089417,
+      "mae": 0.05246338993310928
+    },
+    {
+      "shift": "dark",
+      "dice": 0.8764390349388123,
+      "iou": 0.806020975112915,
+      "mae": 0.05442433804273605
+    },
+    {
+      "shift": "bright",
+      "dice": 0.8723771572113037,
+      "iou": 0.799725353717804,
+      "mae": 0.05438150092959404
+    },
+    {
+      "shift": "high_contrast",
+      "dice": 0.8772991895675659,
+      "iou": 0.8053367733955383,
+      "mae": 0.05322989076375961
+    },
+    {
+      "shift": "gamma_dark",
+      "dice": 0.8778746724128723,
+      "iou": 0.8064133524894714,
+      "mae": 0.05456933379173279
+    },
+    {
+      "shift": "gamma_bright",
+      "dice": 0.8839064240455627,
+      "iou": 0.8152741193771362,
+      "mae": 0.05408021807670593
+    },
+    {
+      "shift": "warm",
+      "dice": 0.8814425468444824,
+      "iou": 0.8114842772483826,
+      "mae": 0.05157133936882019
+    },
+    {
+      "shift": "cool",
+      "dice": 0.8808571696281433,
+      "iou": 0.8109659552574158,
+      "mae": 0.05538414046168327
+    }
+  ]
+}

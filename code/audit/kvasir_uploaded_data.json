@@ -1,0 +1,12 @@
+{
+  "root": "${USPG_DATA_ROOT}/Kvasir-SEG",
+  "n_images": 1000,
+  "n_masks": 1000,
+  "missing_masks": [],
+  "orphan_masks": [],
+  "duplicate_image_groups": [],
+  "duplicate_image_extras": 0,
+  "duplicate_pair_groups": [],
+  "duplicate_pair_extras": 0,
+  "same_image_different_mask_groups": []
+}

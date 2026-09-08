@@ -1,0 +1,46 @@
+[
+  {
+    "model": "resunet",
+    "parameters": 14328209,
+    "trainable_parameters": 14328209,
+    "cpu_latency_ms_per_image_mean": 41.852426399782416,
+    "cpu_latency_ms_per_image_sd": 2.5124428272247314,
+    "batch_size": 1,
+    "image_size": 256,
+    "threads": 8,
+    "repeats": 10
+  },
+  {
+    "model": "resunet_spc",
+    "parameters": 14328209,
+    "trainable_parameters": 14328209,
+    "cpu_latency_ms_per_image_mean": 45.61058999970555,
+    "cpu_latency_ms_per_image_sd": 3.781825542449951,
+    "batch_size": 1,
+    "image_size": 256,
+    "threads": 8,
+    "repeats": 10
+  },
+  {
+    "model": "unetpp",
+    "parameters": 15970449,
+    "trainable_parameters": 15970449,
+    "cpu_latency_ms_per_image_mean": 121.38093239991576,
+    "cpu_latency_ms_per_image_sd": 23.830896377563477,
+    "batch_size": 1,
+    "image_size": 256,
+    "threads": 8,
+    "repeats": 10
+  },
+  {
+    "model": "deeplabv3p",
+    "parameters": 12329297,
+    "trainable_parameters": 12329297,
+    "cpu_latency_ms_per_image_mean": 33.803844400245,
+    "cpu_latency_ms_per_image_sd": 5.084723472595215,
+    "batch_size": 1,
+    "image_size": 256,
+    "threads": 8,
+    "repeats": 10
+  }
+]

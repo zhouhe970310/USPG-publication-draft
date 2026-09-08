@@ -1,0 +1,3 @@
+model,clean_dice_mean,mean_corrupt_dice_mean,worst_corrupt_dice_mean,selection_score_mean,n_seeds
+resunet,0.879797,0.872774,0.866838,0.875232,3
+resunet_spc,0.886149,0.880680,0.874606,0.882594,3

@@ -1,0 +1,64 @@
+{
+  "selection_dataset": "Kvasir-SEG fixed validation subset only",
+  "model_type": "resunet_spc",
+  "seed": 44,
+  "image_size": 256,
+  "checkpoint": "<EXPERIMENT_ROOT>/bspc_optimized_runs/resunet_spc/seed44/best_model.pth",
+  "checkpoint_sha256": "d07ccfe90f128c608347ac749f6e90d4247ffa6dd1358ee691ba9460977255e2",
+  "best_epoch": 2,
+  "best_val_dice": 0.8908947043120861,
+  "clean_dice": 0.8908947706222534,
+  "mean_corrupt_dice": 0.8859451583453587,
+  "worst_corrupt_dice": 0.8789149522781372,
+  "selection_score": 0.8876775226422717,
+  "shifts": [
+    {
+      "shift": "clean",
+      "dice": 0.8908947706222534,
+      "iou": 0.8247484564781189,
+      "mae": 0.052671752870082855
+    },
+    {
+      "shift": "dark",
+      "dice": 0.8909204006195068,
+      "iou": 0.824292778968811,
+      "mae": 0.05355832725763321
+    },
+    {
+      "shift": "bright",
+      "dice": 0.8828799724578857,
+      "iou": 0.8146125674247742,
+      "mae": 0.05446210876107216
+    },
+    {
+      "shift": "high_contrast",
+      "dice": 0.8843066692352295,
+      "iou": 0.8153459429740906,
+      "mae": 0.0547625795006752
+    },
+    {
+      "shift": "gamma_dark",
+      "dice": 0.8864831328392029,
+      "iou": 0.8209711313247681,
+      "mae": 0.054275620728731155
+    },
+    {
+      "shift": "gamma_bright",
+      "dice": 0.8870947360992432,
+      "iou": 0.8202601671218872,
+      "mae": 0.05517357215285301
+    },
+    {
+      "shift": "warm",
+      "dice": 0.8789149522781372,
+      "iou": 0.8115544319152832,
+      "mae": 0.05424916744232178
+    },
+    {
+      "shift": "cool",
+      "dice": 0.8910162448883057,
+      "iou": 0.8229047656059265,
+      "mae": 0.055527325719594955
+    }
+  ]
+}

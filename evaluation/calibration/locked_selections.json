@@ -1,0 +1,34 @@
+{
+  "resunet_dsp": {
+    "model": "resunet_dsp",
+    "mode": "plain",
+    "threshold": 0.525,
+    "mean_kvasir_val_dice": 0.8812009167671203,
+    "selection_dataset": "Kvasir-SEG fixed validation subset only",
+    "selection_rule": "One common mode and threshold per model across seeds 42"
+  },
+  "resunet_spc_region": {
+    "model": "resunet_spc_region",
+    "mode": "plain",
+    "threshold": 0.5,
+    "mean_kvasir_val_dice": 0.8834100198745728,
+    "selection_dataset": "Kvasir-SEG fixed validation subset only",
+    "selection_rule": "One common mode and threshold per model across seeds 42"
+  },
+  "unetpp": {
+    "model": "unetpp",
+    "mode": "hflip",
+    "threshold": 0.6,
+    "mean_kvasir_val_dice": 0.8839450645446777,
+    "selection_dataset": "Kvasir-SEG fixed validation subset only",
+    "selection_rule": "One common mode and threshold per model across seeds 42"
+  },
+  "deeplabv3p": {
+    "model": "deeplabv3p",
+    "mode": "hflip",
+    "threshold": 0.5,
+    "mean_kvasir_val_dice": 0.8734350180625916,
+    "selection_dataset": "Kvasir-SEG fixed validation subset only",
+    "selection_rule": "One common mode and threshold per model across seeds 42"
+  }
+}
